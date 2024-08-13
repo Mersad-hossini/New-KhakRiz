@@ -1,0 +1,45 @@
+.card-assistance {
+  position: relative;
+  transition: 0.3s;
+  border: none;
+}
+
+.card-assistance:hover {
+  box-shadow: 10px 10px 10px #1d1d1d;
+}
+
+.card-assistance img {
+  width: 100%;
+  height: 175px;
+}
+
+.card-assistance .card-body-assistance {
+  position: absolute;
+  top: 90%;
+  left: 50.1%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.card-assistance .card-body-assistance {
+  position: absolute;
+  top: 90%;
+  left: 50.1%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.card-title-assistance {
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 9px;
+}

@@ -1,0 +1,29 @@
+.img-resize {
+  width: 50% !important;
+  height: 500px !important;
+}
+
+.card-top {
+  width: 100% !important;
+  height: 500px !important;
+}
+
+.img-resize {
+  width: 100% !important;
+  height: 500px !important
+}
+
+@media only screen and (max-width: 550px) {
+  .img-resize {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+.subset-img {
+  height: 300px !important;
+}
+
+.font-detail {
+    font-size:18px
+}

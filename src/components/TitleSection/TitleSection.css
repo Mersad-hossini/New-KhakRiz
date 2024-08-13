@@ -1,0 +1,23 @@
+/* برای ایجاد یک خط و متن در وسط ان */
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.separator span {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #1d1d1d;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #1d1d1d;
+}
