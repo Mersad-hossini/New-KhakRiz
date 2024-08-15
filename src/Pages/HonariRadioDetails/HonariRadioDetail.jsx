@@ -6,7 +6,7 @@ import { FadeLoader } from "react-spinners";
 import HonariRadioData from "../../Services/Axios/Requests/OneHonariRadioData";
 import TitleTab from "../../components/TitleTab/TitleTab";
 
-export default function HonariRaidoDetail() {
+export default function HonariRadioDetail() {
   let { id } = useParams();
   let navigate = useNavigate();
 

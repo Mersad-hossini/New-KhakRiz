@@ -9,11 +9,11 @@ import TextBookDetail from "./Pages/TextBookDetails/TextBookDetail";
 import Honari from "./Pages/Honari/Honari";
 import HonariClip from "./Pages/HonariClip/HonariClip";
 import HonariClipDetails from "./Pages/HonariClipDetails/HonariClipDetail";
-import HonariRaidoDetail from "./Pages/HonariRaidoDetails/HonariRaidoDetail";
+import HonariRadioDetail from "./Pages/HonariRadioDetails/HonariRadioDetail";
 import Library from "./Pages/Library/Library";
 import LibraryDetali from "./Pages/libraryDetalis/libraryDetali";
 import Majazi from "./Pages/Majazi/Majazi";
-import HonariRaido from "./Pages/HonariRaido/HonariRaido";
+import HonariRadio from "./Pages/HonariRadio/HonariRadio"; //
 import Yadman from "./Pages/Yadman/Yadman";
 import YadmanDetail from "./Pages/YadmanDetails/YadmanDetail";
 import MajaziGallery from "./Pages/majaziGallery/majaziGallery";
@@ -38,8 +38,8 @@ let routes = [
   { path: "/honari", element: React.createElement(Honari) },
   { path: "/honari/honariClip", element: React.createElement(HonariClip) },
   { path: "/honari/honariClip/:id", element: React.createElement(HonariClipDetails) },
-  { path: "/honari/honariRaido", element: React.createElement(HonariRaido) },
-  { path: "/honari/honariRaido/:id", element: React.createElement(HonariRaidoDetail) },
+  { path: "/honari/honariRadio", element: React.createElement(HonariRadio) },
+  { path: "/honari/honariRadio/:id", element: React.createElement(HonariRadioDetail) },
 
 
   { path: "/library", element: React.createElement(Library) },

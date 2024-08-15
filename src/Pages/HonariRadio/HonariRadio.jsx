@@ -4,11 +4,11 @@ import Footer from "../../components/Footer/Footer";
 import { useQuery } from "react-query";
 import PlaceHolder from "../../components/PlaceHolder/PlaceHolder";
 import CardBox from "../../components/CardBox/CardBox";
-import getRaidoSound from "../../Services/Axios/Requests/Raido";
+import getRaidoSound from "../../Services/Axios/Requests/Radio";
 import TitleTab from "../../components/TitleTab/TitleTab";
 import Pagination from "../../components/Pagination/Pagination";
 
-export default function HonariRaido() {
+export default function HonariRadio() {
   const { data: honariRaido, isLoading: honariRaidoIsLoading } =
     useQuery(["honariRaido"], () => getRaidoSound());
 
@@ -53,7 +53,7 @@ export default function HonariRaido() {
                 <CardBox
                   title={radio.title}
                   img={`https://server.khakrizedarya.ir${radio.audio_image}`}
-                  href={`/honari/honariRaido/${radio.id}`}
+                  href={`/honari/honariRadio/${radio.id}`}
                 />
               </div>
             ))

@@ -13,7 +13,7 @@ export default function Honari() {
       <div className="container">
         <div className="row gy-3">
           <BoxSection img="/musichonaricover.png" href="/honari/honariClip" />
-          <BoxSection img="/radiohonaricover.png" href="/honari/honariRaido" />
+          <BoxSection img="/radiohonaricover.png" href="/honari/honariRadio" />
           <BoxSection img="/videohonariimage.png" />
           <BoxSection img="/motionhonaricover.png" />
         </div>

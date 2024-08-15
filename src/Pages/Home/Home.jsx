@@ -23,7 +23,7 @@ import Placeholder from "react-bootstrap/Placeholder";
 // All Sliders Api
 import { useQuery } from "react-query";
 import getSliders from "../../Services/Axios/Requests/Sliders";
-import getRaido from "../../Services/Axios/Requests/Raido";
+import getRaido from "../../Services/Axios/Requests/Radio";
 import getVideo from "../../Services/Axios/Requests/Video";
 import GraphicDesign from "../../Services/Axios/Requests/GraphicDesign";
 import TitleTab from "../../components/TitleTab/TitleTab";
@@ -126,7 +126,7 @@ export default function Home() {
                   <CardBox
                     img={`https://server.khakrizedarya.ir${raido.audio_image}`}
                     title={raido.title}
-                    href={`/honari/honariRaido/${raido.id}`}
+                    href={`/honari/honariRadio/${raido.id}`}
                   />
                 </SwiperSlide>
               ))}
